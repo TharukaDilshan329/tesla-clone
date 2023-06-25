@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Gotham-ssm;
+    src: url(/font/GothamSSm-Book_Web.woff2);
+}
+html,body{
+    font-family: Gotham-ssm;
+    font-size: 14px;
+}

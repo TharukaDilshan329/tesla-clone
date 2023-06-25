@@ -1,6 +1,8 @@
+
 *{
     box-sizing: border-box;
 }
+    
 html,body{
     width: 100%;
     scroll-snap-type: y proximity;
@@ -11,7 +13,6 @@ html,body{
     background-color: white;
     text-align: center;
     position: relative;
-    
 }
 #inner-add{
     font-size: 14px;
@@ -38,7 +39,7 @@ html,body{
 #menu >div{
     height: 100%;
     line-height: 56px;
-
+    
 }
 #menu >div:first-child{
     float: left;
@@ -68,8 +69,6 @@ html,body{
 #menu >div:nth-child(2)>span:hover{
     background-color: rgb(109, 84, 84);
     cursor: pointer;
-    
-    
 }
 #menu >div:last-child>span{
     /* margin: 0 8px; */
@@ -80,8 +79,7 @@ html,body{
     background-color: rgb(223, 219, 219);
     /* transition-property: top;
     transition-duration: 3s; */
-    cursor: pointer;
-
+    cursor: pointer;    
 }
 #menu >div:first-child>svg{
     width: 120px;
@@ -109,7 +107,7 @@ header{
     scroll-snap-align: start;
     background-size: cover;
     background-position: center;
-
+    
 }
 .image:first-child{
     background-color: blue;
@@ -158,8 +156,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 640px;   
-    padding-right: 640px;   
+    padding-left: 640px; 
+    padding-right: 640px; 
 }
 #p1>#inner-p1>:nth-child(3)>div{
     width: 264px;
@@ -178,9 +176,9 @@ header{
     /* transition-property: display;
     transition-duration: 1s; */
 }
-/* #p1: #inner-p1{
+    /* #p1: #inner-p1{
     display: block;
-} */
+    } */
 #p1>#inner-p1>:nth-child(4){
     margin-top: 30px;
     text-align: center; 
@@ -205,5 +203,6 @@ header{
     60%{
         transform: translateY(0%);
     }
-
+    
 }
+    
